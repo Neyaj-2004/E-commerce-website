@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+}
+
+.Semibold{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.space-between{
+    justify-content:space-between;
+}
+
+.flex{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 10vw;
+}
+
