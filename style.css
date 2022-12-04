@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    top: 0;
+    background: #E3E6F3
+}
+.homeMenuwrappedItem1{
+    background-color: #799be6;
+}
+.left img {
+    height: 130px;
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 25px 25px;
+
+}
+
+a:hover{
+    color: white;
+}
+nav ul li:hover{
+    transform: scale(1.5);
+}
+
+div .mx-2:hover{
+    transform: scale(1.5);
+}
+
+
+.b {
+    margin: 32px;
+    height: 25px;
+    width: 30vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+
+}
+
+
+.mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 45px 0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+.section1 {
+    background-color: white;
+
+}
+
+.homeimg {
+    width: 80vw;
+    margin-top: 10px;
+
+}
+
+#one {
+    border-radius: 20px;
+    box-shadow: -15px -20px 25px black;
+
+}
+
+.two {
+    width: 100%;
+}
+
+#three {
+    margin-top: 10px;
+    width: 100vw;
+    border-radius: 20px;
+
+}
+
+#text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff, 0 0 15px #e600e6,
+        0 0 20px #e600e6, 0 0 25px #e600e6,
+        0 0 30px #e600e6, 0 0 35px #e600e6;
+}
+
+#text1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3px;
+
+    background-color: black;
+
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff, 0 0 15px #0073e6,
+        0 0 20px #0073e6, 0 0 25px #0073e6,
+        0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.color {
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+
+}
+
+
+.h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 180px;
+
+    text-shadow: 0 0 5px #fff,
+        0 0 5px #fff, 0 0 10px #e6002e,
+        0 0 10px #e6002e, 0 0 15px #e6002e,
+        0 0 15px #e6002e, 0 0 25px #e6002e;
+}
+
+
+.itemImg {
+    width: 10vw;
+    margin: 6px 12px;
+}
+
+
+.tall {
+    min-height: 40vh;
+}
+
+header {
+    animation: changeBg 5s infinite alternate linear;
+}
+
+@keyframes changeBg {
+    0% {
+        background: #ee6055;
+    }
+
+    25% {
+        background: #60d394;
+    }
+
+    50% {
+        background: #aaf683;
+    }
+
+    75% {
+        background: #ffd97d;
+    }
+
+    100% {
+        background: #ff9b85;
+    }
+}
+
+
+#q {
+    animation: zoom-in-out 2s infinite;
+}
+
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+
+.banner {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -2px -2px 5px rgb(72, 38, 210);
+
+}
+
+#down {
+    background: #f0d0eb;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+button {
+    padding: 4px;
+    width: 80px;
+    cursor: pointer;
+    background: #799be6;
+    color: white;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+        0 0 10px 4px #799be6;
+    border-radius: 10px;
+    color: black;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("banner2.jpg");
+    margin: 30px;
+}
+
+#newsletter input {
+    height: 20px;
+    width: 300px;
+}
+
+.text5 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -1px -1px 3px rgb(210, 38, 156);
+    color: white;
+
+}
+
+.tall {
+    margin-top: 20px;
+    display: flex;
+}
+
+.f1 {
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background-color: rgb(48, 48, 211);
+    color: white;
+    font-size: 30px;
+}
+
+span {
+    color: red;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(16, 4, 4);
+}
+
+.r {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* for scroll bar */
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom,
+            #ff0a80,
+            #ff3434);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #474747;
+}
